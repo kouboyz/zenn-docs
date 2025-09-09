@@ -1,0 +1,22 @@
+{
+  "name": "zenn-on-codespaces",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" }
+  },
+  "postCreateCommand": "npm i -g zenn-cli@latest",
+  "forwardPorts": [8000],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "yzhang.markdown-all-in-one",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next"
+      ],
+      "settings": {
+        "editor.wordWrap": "on",
+        "editor.renderWhitespace": "boundary"
+      }
+    }
+  }
+}
