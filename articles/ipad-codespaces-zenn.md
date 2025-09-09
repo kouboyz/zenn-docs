@@ -4,7 +4,7 @@ emoji: "📝"
 type: "tech"
 topics: ["zenn","github","codespaces","vscode","ipad"]
 published: false
-----------------
+---
 
 ## 本記事の3行まとめ
 * iPad + GitHub Codespaces + Dev Container + Zenn CLI でローカル構築なし執筆。
