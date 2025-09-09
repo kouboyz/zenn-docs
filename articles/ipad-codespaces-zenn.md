@@ -3,7 +3,8 @@ title: "iPad × GitHub Codespaces でどこでもZenn執筆"
 emoji: "📝"
 type: "tech"
 topics: ["zenn","github","codespaces","vscode","ipad"]
-published: false
+published: true
+published_at: 2025-09-10 7:00
 ---
 
 ## 本記事の3行まとめ
