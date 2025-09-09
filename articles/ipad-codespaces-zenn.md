@@ -5,6 +5,7 @@ type: "tech"
 topics: ["zenn","github","codespaces","vscode","ipad"]
 published: true
 published_at: 2025-09-10 07:00
+publication_name: "rakuten_tech"
 ---
 
 ## 本記事の3行まとめ
