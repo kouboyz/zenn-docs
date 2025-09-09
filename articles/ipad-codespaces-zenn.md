@@ -3,7 +3,8 @@ title: "iPad × GitHub Codespaces でどこでもZenn執筆"
 emoji: "📝"
 type: "tech"
 topics: ["zenn","github","codespaces","vscode","ipad"]
-published: false
+published: true
+published_at: 2025-09-10 07:00
 publication_name: "rakuten_tech"
 ---
 
@@ -172,7 +173,7 @@ preview:
 
 ## 再利用用の雛形リポジトリ
 
-* **Sample Repo**：[https://github.com/kouboyz/zenn-template](https://github.com/kouboyz/zenn-docs)
+* **Sample Repo**：[https://github.com/kouboyz/zenn-template](https://github.com/kouboyz/zenn-template)
   このリポジトリには本記事で紹介した `.devcontainer/devcontainer.json` と設定例が含まれます。Fork してお使いください（テンプレート化も可）。
 
 ---
