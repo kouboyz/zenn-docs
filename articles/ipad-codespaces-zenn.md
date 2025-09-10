@@ -10,14 +10,15 @@ publication_name: "rakuten_tech"
 
 ## 本記事の3行まとめ
 * iPad + GitHub Codespaces + Dev Container + Zenn CLI でローカル構築なし執筆。
-* 設定ファイルと初回コマンドをコピペで再現。
+* 設定ファイルと初回コマンドをコピペで再現したよ。
 * iPadユーザーが無料枠内ですぐプレビュー表示まで到達するのがゴール。
 
 ---
 
 ## なぜ iPad + Codespaces なのか
 
-* **持ち物は iPad とキーボードだけ**：PCを開けない移動中やカフェでも執筆に集中できます。
+* **なんかカッコいいから**：ときめくか、ときめかないか。
+* **持ち物は iPad とキーボードだけ**：飛行機や新幹線、カフェなど空き時間にサクサク執筆できます。
 * **環境差分ゼロ**：Dev Container により Node/Zenn/拡張機能がリポジトリで定義され、どこで開いても同じ体験。
 * **ブラウザ VS Code**：Codespaces の VS Code Web が iPad でも快適に動作。プレビューはポートフォワードでワンタップ表示。
 * **無料枠で十分試せる**：個人アカウントは毎月 **120 コア時間 & 15GB-month** まで無料（超過は従量）。※最新の条件は**GitHub Docs**をご確認ください→ [About billing for GitHub Codespaces](https://docs.github.com/en/billing/managing-billing-for-your-products/about-billing-for-github-codespaces)、[GitHub’s products（Free/Proの枠）](https://docs.github.com/get-started/learning-about-github/githubs-products)。
@@ -83,7 +84,7 @@ publication_name: "rakuten_tech"
 > ```bash
 > zenn new:article \
 >   --slug ipad-codespaces-zenn \
->   --title "iPad × Codespaces でどこでも執筆"
+>   --title "iPad × Codespaces でどこでもZenn執筆"
 > ```
 
 ---
