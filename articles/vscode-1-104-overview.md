@@ -24,11 +24,11 @@ publication_name: "rakuten_tech"
 | トピック | 要点 | リンク |
 |----------|------|--------|
 | ⭐ 自動モデル選択 (Auto model) | 利用状況やレート制限を考慮し最適モデル自動選択 (Claude / GPT / Gemini など候補)。 | [Auto model selection](https://code.visualstudio.com/updates/v1_104#_auto-model-selection-preview) |
-| ⭐ 機密/重要ファイル編集の確認 | 敏感ファイル変更前に確認ダイアログ。`chat.tools.edits.autoApprove` で制御。 | [Confirm edits](https://code.visualstudio.com/updates/v1_104#_confirm-edits-to-sensitive-files) |
+| ⭐ 機密/重要ファイル編集の確認 | 機密ファイル変更前に確認ダイアログ。`chat.tools.edits.autoApprove` で制御。 | [Confirm edits](https://code.visualstudio.com/updates/v1_104#_confirm-edits-to-sensitive-files) |
 | ⭐ `AGENTS.md` 対応 | ルートに置くとエージェントの共通コンテキストに自動読込。チーム標準化に有効。 | [AGENTS.md](https://code.visualstudio.com/updates/v1_104#_support-for-agentsmd-files-experimental) |
 | ⭐ 変更ファイルリスト刷新 | 提案差分 UI/折りたたみ/自動除去でエージェントモード中の視認性向上。 | [Changed files](https://code.visualstudio.com/updates/v1_104#_improved-changed-files-experience) |
 | ⭐ プロンプトファイルのカスタムモード | 独自 chat モード指定が可能に。ワークフロー分離が容易。 | [Custom chat modes](https://code.visualstudio.com/updates/v1_104#_use-custom-chat-modes-in-prompt-files) |
-| ⭐ プロンプトファイル候補設定 (実験) | 条件式で特定ファイル種別時に候補提示。ナレッジの“必要な時だけ”出現。 | [Prompt file suggestions](https://code.visualstudio.com/updates/v1_104#_configure-prompt-file-suggestions-experimental) |
+| ⭐ プロンプトファイル候補設定 (実験) | 条件式で特定ファイル種別時に候補提示。ナレッジが“必要な時だけ”出現する。 | [Prompt file suggestions](https://code.visualstudio.com/updates/v1_104#_configure-prompt-file-suggestions-experimental) |
 | ツールセット内個別有効化 | tool set 内のツール粒度を GUI で制御。 | [Tool sets](https://code.visualstudio.com/updates/v1_104#_select-tools-in-tool-sets) |
 | チャット用フォント設定 | `chat.fontFamily` / `chat.fontSize` で可読性調整。 | [Chat font](https://code.visualstudio.com/updates/v1_104#_configure-font-used-in-chat) |
 | Coding Agent 協調 (実験) | 複数セッション/ステータスバー追跡/PR 操作など連携拡張。 | [Collaborate with coding agents](https://code.visualstudio.com/updates/v1_104#_collaborate-with-coding-agents-experimental) |
@@ -38,7 +38,7 @@ publication_name: "rakuten_tech"
 | 数式レンダリング既定ON | KaTeX による `$...$` / `$$...$$`。 | [Math rendering](https://code.visualstudio.com/updates/v1_104#_math-rendering-enabled-by-default) |
 | Chat 初期表示 | Secondary Side Bar の既定表示設定。 | [Chat view visibility](https://code.visualstudio.com/updates/v1_104#_chat-view-default-visibility) |
 | タスク連携強化 | 入力検知/問題マッチャ結果の構造表示/複合タスク可視化。 | [Improved task support](https://code.visualstudio.com/updates/v1_104#_improved-task-support) |
-| ターミナルツール改善 | core 取り込み/タイムアウト設定/Command Prompt 回避など。 | [Improved terminal support](https://code.visualstudio.com/updates/v1_104#_improved-terminal-support) |
+| ターミナルツール改善 | coreへの取り込み/タイムアウト設定/Command Prompt 回避など。 | [Improved terminal support](https://code.visualstudio.com/updates/v1_104#_improved-terminal-support) |
 | ⭐ Todo List tool | エージェント進捗分解 UI がデフォルト有効。 | [Todo List tool](https://code.visualstudio.com/updates/v1_104#_todo-list-tool) |
 | ツール呼び出しスキップ | 部分キャンセル的にスキップ可能。 | [Skip tool calls](https://code.visualstudio.com/updates/v1_104#_skip-tool-calls) |
 | ⭐ セマンティック検索改善 | 新 embeddings で精度向上/サイズ 6% に圧縮。 | [Semantic workspace search](https://code.visualstudio.com/updates/v1_104#_improvements-to-semantic-workspace-search) |
@@ -92,7 +92,7 @@ publication_name: "rakuten_tech"
 | .env 注入制御 | `python.useEnvFile` で環境変数挙動切替。 | [Env injection](https://code.visualstudio.com/updates/v1_104#_configure-environment-variable-injection) |
 | AI Hover Summary (実験) | 未ドキュメントシンボルを要約表示。 | [AI hover summaries](https://code.visualstudio.com/updates/v1_104#_ai-powered-hover-summaries-with-pylance-experimental) |
 | Python Run Snippet Tool | In-memory 実行でエスケープ煩雑さ軽減。 | [Run code snippet tool](https://code.visualstudio.com/updates/v1_104#_run-code-snippet-tool) |
-| IntelliSense 全面有効 | すべての Python ドキュメントで Pylance 有効化既定。 | [Pylance IntelliSense](https://code.visualstudio.com/updates/v1_104#_pylance-intellisense-enabled-in-all-python-documents) |
+| IntelliSense 全面有効 | すべての Python ドキュメントで Pylance が既定で有効化。 | [Pylance IntelliSense](https://code.visualstudio.com/updates/v1_104#_pylance-intellisense-enabled-in-all-python-documents) |
 | Activation Hooks 改善 | シェル統合経由で確実に環境活性化。 | [Activation hooks](https://code.visualstudio.com/updates/v1_104#_activation-hooks) |
 
 ## 🧩 Extension Authoring / Proposed APIs
