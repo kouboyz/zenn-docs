@@ -3,7 +3,7 @@ title: "VS Code v1.104 新機能ざっくりまとめ"
 emoji: "📚"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vscode","github","copilot"]
-published: false
+published: true
 publication_name: "rakuten_tech"
 ---
 
@@ -20,7 +20,7 @@ publication_name: "rakuten_tech"
 
 ---
 
-## 💬 Chat / Copilot まわり
+## 💬 GitHub Copilot / Chat まわり
 | トピック | 要点 | リンク |
 |----------|------|--------|
 | ⭐ 自動モデル選択 (Auto model) | 利用状況やレート制限を考慮し最適モデル自動選択 (Claude / GPT / Gemini など候補)。 | [Auto model selection](https://code.visualstudio.com/updates/v1_104#_auto-model-selection-preview) |
