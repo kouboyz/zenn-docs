@@ -4,6 +4,7 @@ emoji: "📚"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vscode","github","copilot"]
 published: false
+publication_name: "rakuten_tech"
 ---
 
 ## 本記事の3行まとめ
@@ -108,4 +109,6 @@ published: false
 * [Engineering](https://code.visualstudio.com/updates/v1_104#_engineering)
 * [Notable fixes](https://code.visualstudio.com/updates/v1_104#_notable-fixes)
 
-メモ用途なので抜けや誤りあればぜひ突っ込みください。気になったら原文で “Show more” を踏みながら散歩するのがおすすめ。 
+---
+
+メモ用途ですが抜けや誤りあればぜひ突っ込みください。気になったら原文で “Show more” を踏みながら散歩するのがおすすめです！
