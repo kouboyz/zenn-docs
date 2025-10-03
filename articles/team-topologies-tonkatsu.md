@@ -3,7 +3,7 @@ title: "チームトポロジーで考えるAI時代の開発組織と豚カツ�
 emoji: "🍖"
 type: "idea"
 topics: ["チームトポロジー","組織","AI","とんかつ"]
-published: false
+published: true
 publication_name: "rakuten_tech"
 ---
 
